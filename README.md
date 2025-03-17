@@ -75,7 +75,7 @@ The project is organized into the following structure:
             └── String+ExtensionTests.swift
 ```
 
-### SwiftyApp
+### SwiftyAd
 - **Model**: Contains the data models, such as `Ad` and `AdCategory`.
 - **Network**: Contains networking-related code, including the `NetworkManager` class that handles API calls.
 - **Resources**: Contains assets like images and `.xcassets` for resources.
@@ -83,7 +83,7 @@ The project is organized into the following structure:
 - **View**: Contains views like `AdsGridView`, `AdDetailsView`, and `AdItemView`.
 - **ViewModel**: Contains the view models responsible for the logic behind the views, such as `AdsGridViewModel` and `AdItemViewModel`.
 
-### SwiftAdTests
+### SwiftyAdTests
 - **Network**: Contains network-related test mocks and test cases for `NetworkManager`.
 - **Utils/Extensions**: Contains tests for utility extensions, like `Float` and `String`.
 
